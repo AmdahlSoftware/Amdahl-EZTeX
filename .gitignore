@@ -21,3 +21,6 @@ vscode.db
 product.overrides.json
 *.snap.actual
 .vscode-test
+test_project/acl2023.aux
+test_project/acl2023.log
+test_project/acl2023.pdf

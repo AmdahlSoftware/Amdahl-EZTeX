@@ -4,39 +4,10 @@
 
 \documentclass[11pt]{article}
 
-% Remove the "review" option to generate the final version.
-\usepackage{ACL2023}
 
-% Standard package includes
-\usepackage{times}
-\usepackage{latexsym}
+% Minimal package set for testing
+%\usepackage{graphicx} % Uncomment if you need to include images
 
-% For proper rendering and hyphenation of words containing Latin characters (including in bib files)
-\usepackage[T1]{fontenc}
-% For Vietnamese characters
-% \usepackage[T5]{fontenc}
-% See https://www.latex-project.org/help/documentation/encguide.pdf for other character sets
-
-% This assumes your files are encoded as UTF8
-\usepackage[utf8]{inputenc}
-
-% This is not strictly necessary, and may be commented out.
-% However, it will improve the layout of the manuscript,
-% and will typically save some space.
-\usepackage{microtype}
-
-% This is also not strictly necessary, and may be commented out.
-% However, it will improve the aesthetics of text in
-% the typewriter font.
-\usepackage{inconsolata}
-\usepackage{hyperref}
-
-\usepackage{pgfplots}
-\usepackage{pgfplotstable}
-\pgfplotsset{compat=1.17}
-
-\usepackage{graphicx}
-\graphicspath{ {./images/} }
 
 % If the title and author information does not fit in the area allocated, uncomment the following
 %
@@ -47,11 +18,12 @@
 \title{Sequester Encryption Extension for RISC-V Processors \\ EECS 598: Privacy-Enhancing Technologies \\ Final Project Report, Winter 2024 \\ Due 04/30/2024}
 \author{Lindsey Forche \\
   University of Michigan \\
-   \texttt{lforche@umich.edu}\\\And
+   \texttt{lforche@umich.edu}
+  \and
   Zachary De Rosia \\
   University of Michigan \\
-   \texttt{zderosia@umich.edu} \\}
-   
+   \texttt{zderosia@umich.edu}}
+
 \pagenumbering{arabic}
 \begin{document}
 \maketitle
@@ -75,7 +47,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a massa at urna f
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a massa at urna fermentum malesuada. Sed ultrices velit felis, sit amet laoreet orci tempus in. Aenean eu tincidunt lectus. Donec semper, felis a ornare auctor, purus est volutpat lacus, vitae sodales nisi neque eget enim. Donec consequat convallis augue, pretium posuere ante tincidunt accumsan. Quisque mauris lacus, mattis ut purus nec, pulvinar dapibus nulla. Praesent pharetra pretium ex, eget porttitor justo rutrum sit amet. Cras sodales lacus eu nulla consequat, vitae blandit ex finibus.
 
 \section{Code Base Link}
-Here is the link to our code base: LINKGITHUBHERE. It should be a public repository, so you should have access to it. We have our various datasets and the base code in this github. 
+Here is the link to our code base: LINKGITHUBHERE. It should be a public repository, so you should have access to it. We have our various datasets and the base code in this github.
 
 \bibliography{custom}
 \bibliographystyle{acl_natbib}
